@@ -19,12 +19,12 @@ return new class extends Migration
             $table->string('cname');
             $table->string('slug');
             $table->string('address');
-            $table->string('pone');
+            $table->string('phone');
             $table->string('website');
             $table->string('logo');
             $table->string('cover_photo');
             $table->string('slogan');
-            $table->string('description');
+            $table->text('description');
             $table->timestamps();
         });
     }
